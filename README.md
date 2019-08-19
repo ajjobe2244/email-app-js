@@ -1,1 +1,1 @@
-# email-app
+# Fullstack NodeJS Email App

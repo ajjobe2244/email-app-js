@@ -5,11 +5,8 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import reduxThunk from 'redux-thunk';
 
-
 import App from './components/App';
 import reducers from './reducers';
-
-
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
@@ -19,3 +16,6 @@ ReactDOM.render(
 	</Provider>,
 	document.querySelector('#root')
 );
+
+console.log('STRIPE KEY IS', process.env.REACT_APP_STRIPE_KEY);
+console.log('Envrionment is', process.env.NODE_ENV);

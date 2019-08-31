@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
 	return (
-		<div>
+		<div className>
 			Dashboard
 			<div className="fixed-action-btn">
 				<Link

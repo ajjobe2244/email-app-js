@@ -1,4 +1,5 @@
 // SurveyForm shows a form for a user to add input
+//for commit
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';

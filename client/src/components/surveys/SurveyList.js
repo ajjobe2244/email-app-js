@@ -11,7 +11,7 @@ class SurveyList extends Component {
 		// iterates over each Survey and displays all of the content of each Survey
 		return this.props.surveys.reverse().map(survey => {
 			return (
-				<div className="card darken-1" key={survey._id}>
+				<div className="card darken-2" key={survey._id}>
 					<div className="card-content">
 						<span className="card-title">{survey.title}</span>
 						<p>{survey.body}</p>
